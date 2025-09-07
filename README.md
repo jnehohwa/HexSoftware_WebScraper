@@ -1,25 +1,25 @@
 # HexSoftwares Web Scraper
 
-A production-ready Python web scraper for extracting book data from the "Books to Scrape" demo website. Built for HexSoftwares internship project.
 
-## 🚀 Features
 
-- **🖥️ Beautiful GUI Interface**: User-friendly interface with pastel colors and intuitive controls
-- **💻 Command Line Interface**: Flexible CLI for advanced users and automation
-- **Comprehensive Data Extraction**: Title, price, rating, availability, and product URLs
-- **Deep Scraping**: Optional detailed product information (UPC, category, description)
-- **Multiple Output Formats**: CSV and SQLite database support
-- **Production Ready**: Error handling, retries, logging, and polite rate limiting
-- **Real-time Progress**: Live progress bar and logging in GUI
-- **macOS Compatible**: Tested on M1/M2 Macs
+ Features
 
-## 📋 Requirements
+- Beautiful GUI Interface: User-friendly interface with pastel colors and intuitive controls
+- Command Line Interface: Flexible CLI for advanced users and automation
+- Comprehensive Data Extraction: Title, price, rating, availability, and product URLs
+- Deep Scraping: Optional detailed product information (UPC, category, description)
+- Multiple Output Formats: CSV and SQLite database support
+- Production Ready: Error handling, retries, logging, and polite rate limiting
+- Real-time Progress: Live progress bar and logging in GUI
+- macOS Compatible: Tested on M1/M2 Macs
+
+ Requirements
 
 - Python 3.7+
 - macOS (M1/M2 compatible)
 - Internet connection
 
-## 🛠️ Installation
+ Installation
 
 1. **Clone or download the project**:
    ```bash
@@ -37,15 +37,15 @@ A production-ready Python web scraper for extracting book data from the "Books t
    pip install -r requirements.txt
    ```
 
-## 🎯 Quick Start
+##  Quick Start
 
-### 🖥️ GUI Interface (Recommended)
+### GUI Interface (Recommended)
 ```bash
 # Launch the beautiful GUI interface
 python run_gui.py
 ```
 
-### 💻 Command Line Interface
+###  Command Line Interface
 ```bash
 # Scrape 3 pages and save to CSV
 python scrape_books.py
@@ -69,7 +69,7 @@ python scrape_books.py \
   --log-level DEBUG
 ```
 
-## 📊 CLI Options
+##  CLI Options
 
 | Option | Description | Default |
 |--------|-------------|---------|
@@ -80,7 +80,7 @@ python scrape_books.py \
 | `--out-sqlite` | SQLite output filename | None |
 | `--log-level` | Logging level (DEBUG/INFO/WARNING/ERROR) | INFO |
 
-## 📈 Sample Output
+##  Sample Output
 
 ### CSV Format
 ```csv
@@ -98,7 +98,7 @@ A Light in the Attic,£51.77,3,22,http://books.toscrape.com/catalogue/a-light-in
 - **category**: Book category (deep mode only)
 - **description**: Book description (deep mode only)
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 HexSoftwares_WebScraper/
@@ -110,7 +110,7 @@ HexSoftwares_WebScraper/
 └── .venv/                  # Virtual environment (created during setup)
 ```
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### Architecture
 - **Object-Oriented Design**: Clean, modular code with `BooksToScrapeScraper` class
@@ -129,7 +129,7 @@ HexSoftwares_WebScraper/
 - **Memory Efficient**: Processes books in batches
 - **Network Friendly**: Respects robots.txt principles with delays
 
-## 🧪 Testing
+##  Testing
 
 After running the scraper, you'll see sample output showing the first 5 books:
 
@@ -138,19 +138,19 @@ After running the scraper, you'll see sample output showing the first 5 books:
 SAMPLE DATA - First 5 rows
 ============================================================
 
-📄 CSV Sample (books.csv):
+ CSV Sample (books.csv):
   1. A Light in the Attic... | £51.77 | Rating: 3
   2. Tipping the Velvet... | £53.74 | Rating: 1
   3. Soumission... | £50.10 | Rating: 1
   4. Sharp Objects... | £47.82 | Rating: 4
   5. Sapiens: A Brief History... | £54.23 | Rating: 5
 
-✅ Scraping completed successfully!
-📊 Total books scraped: 50
-📄 CSV file: books.csv
+ Scraping completed successfully!
+ Total books scraped: 50
+ CSV file: books.csv
 ```
 
-## 🚨 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -164,13 +164,13 @@ SAMPLE DATA - First 5 rows
 python scrape_books.py --log-level DEBUG
 ```
 
-## 📝 License
+##  License
 
 This project is created for HexSoftwares internship purposes.
 
-## 🤝 Contributing
+##  Contributing
 
-This is an internship project. For questions or issues, please contact the development team.
+This is an internship project. For questions or issues, please contact Joshua Nehohwa.
 
 ---
 
