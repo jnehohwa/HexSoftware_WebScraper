@@ -174,4 +174,4 @@ This is an internship project. For questions or issues, please contact Joshua Ne
 
 ---
 
-**Built with ❤️ for HexSoftwares Internship**
+**Built  for HexSoftwares Internship**
